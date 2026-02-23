@@ -28,16 +28,20 @@ function setTrack(t) {
 // =====================
 const LESSONS = [
   {
-    tag: "M2-S10 · Fundamentos",
-    title: "Proceso ≠ Procedimiento ≠ Capacidad",
-    text: "Capacidad: lo que la organización sabe hacer. Proceso: transforma entradas en salidas para un cliente. Procedimiento: cómo se ejecuta un paso.",
-    examples: {
-      itsm: ["Capacidad: Soporte TI", "Proceso: Gestionar incidencias", "Procedimiento: Clasificar severidad y prioridad"],
-      hr:   ["Capacidad: Gestión de personas", "Proceso: Gestionar solicitudes HR", "Procedimiento: Verificar documentación de permiso"],
-      proc: ["Capacidad: Compras", "Proceso: Alta de proveedor", "Procedimiento: Validación fiscal y compliance"],
-    },
-    check: "Escribe 1 ejemplo real de tu entorno para cada categoría (capacidad/proceso/procedimiento).",
+  tag: "M2-S10 · Mi análisis",
+  title: "Proceso seleccionado: Clasificar incidencia",
+  text: "Tras aplicar la matriz Impacto/Esfuerzo/Riesgo, el proceso con mejor equilibrio entre volumen, retrabajo y riesgo operativo fue la clasificación inicial de incidencias.",
+  examples: {
+    itsm: [
+      "Volumen: ~6000 tickets/mes",
+      "Retrabajo estimado: 25%",
+      "Impacto en SLA y escalados P1"
+    ],
+    hr: [],
+    proc: []
   },
+  check: "Justificación: alto impacto por volumen y mejora directa en tiempo medio de resolución."
+},
   {
     tag: "M2-S10 · Límites",
     title: "Trigger + Output: la definición mínima de proceso",
